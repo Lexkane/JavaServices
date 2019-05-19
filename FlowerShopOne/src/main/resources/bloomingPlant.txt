@@ -1,0 +1,11 @@
+yablunia / 20.5 / TREE / yellow / hard / 5
+
+grushia / 120.6 / BUSH / red / soft / 6
+
+tulpan / 120.6 / FLOWER / red / soft / 6
+
+tulpan / 120.6 / FLOWER / yellow / soft / 6
+
+rose / 120.6 / FLOWER / red / soft / 6
+
+tulpan / 120.6 / FLOWER / yellow / hard / 6

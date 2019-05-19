@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-image: url('background_image_arena.jpg'); " prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mortal_combat_droid_edition.controller.ArenaController">
+   <children>
+      <HBox layoutY="-9.0" prefHeight="400.0" prefWidth="900.0">
+         <children>
+            <Pane prefHeight="400.0" prefWidth="250.0">
+               <children>
+                  <Text fx:id="firstDroidName" layoutX="89.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <VBox fx:id="vBox1" layoutX="-8.0" layoutY="100.0" prefHeight="300.0" prefWidth="250.0" />
+               </children>
+            </Pane>
+            <Pane prefHeight="400.0" prefWidth="450.0">
+               <children>
+                  <Text layoutX="175.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arena">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="droid1Status" alignment="TOP_LEFT" layoutX="14.0" layoutY="86.0" prefHeight="300.0" prefWidth="180.0" text="Status" />
+                  <Label fx:id="droid2Status" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="239.0" layoutY="86.0" prefHeight="300.0" prefWidth="180.0" text="   Status" />
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="250.0">
+               <children>
+                  <Text fx:id="secondDroidName" layoutX="103.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <VBox fx:id="vBox2" alignment="TOP_RIGHT" layoutX="-8.0" layoutY="100.0" prefHeight="300.0" prefWidth="250.0" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <Pane layoutY="391.0" prefHeight="200.0" prefWidth="900.0">
+         <children>
+
+            <Label alignment="CENTER" layoutY="-1.0" prefHeight="30.0" prefWidth="900.0" text="History">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="textArea" layoutY="29.0" prefHeight="170.0" prefWidth="900.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
